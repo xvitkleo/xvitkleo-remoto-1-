@@ -128,13 +128,13 @@
         <article>
             <h2>Contacto</h2>
             <form action="">
-                <input type="text" placeholder="Nombre" />
-                <input type="text" placeholder="Apellido" />
+                <input type="text" placeholder="Nombre" required pattern="[a-zA-Z]+" />
+                <input type="text" placeholder="Apellido" required pattern="[a-zA-Z]+"/>
                 <br />
-                <input type="text" placeholder="Email" />
-                <input type="text" placeholder="Telefono" />
+                <input type="text" placeholder="Email" required/>
+                <input type="text" placeholder="Telefono" required pattern="[a-zA-Z0-9]+"/>
                 <br />
-                <input type="text" placeholder="Descripcion" />
+                <textarea name="" id="" cols="43" rows="3" placeholder="Descripcion" required pattern="[a-zA-Z]+"></textarea>
                 <br />
                 <button>Enviar</button>
             </form>
