@@ -1,0 +1,187 @@
+body{
+    width: 960px;
+    height: ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    position: absolute;
+    color: white;
+    top: 25px;
+    left: 350px;
+    width: 321px;
+    height: 74px;
+    font-size: 64px;
+}
+
+h2{
+    font-size: 36px;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    color: white;
+    line-height: 25px;
+}
+
+figure{
+    display: inline;
+}
+.figuras{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*section pachaqtec*/
+.pachaqtec{
+    position: relative;
+}
+
+#fondo{
+    display: block;
+}
+
+.pachaqtec h2{
+    position: absolute;
+    text-align: left;
+    padding: 20px;
+    left: 52px;
+    top: 270px;
+
+    width: 365px;
+    height: 117px;
+
+    border-radius: 10px;
+    background-color: rgba(114, 153, 254, 0.5);
+}
+
+
+/*section sobre mi*/
+.sobreMi{
+    background-color: #7299fe;
+    padding-bottom: 100px;
+}
+
+#verCV{
+    margin-top: 30px;
+    margin-left: 90px;
+
+    width: 180px;
+    height: 60px;
+
+
+    font-family: Helvetica;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    line-height: 25px;
+
+
+    background: #d16fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+/*section skills*/
+.skills{
+    position: relative;
+    background-color: #9022FF;
+    padding-bottom: 30px;
+}
+
+.skills ul{
+    display: flex;
+    margin: 30px;
+}
+
+
+.skills h3{
+    font-size: 18px;
+    color: white;
+}
+
+.skills div:not(.barra):not(.skillsContenedor){
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+    height: 21px;
+    margin: 0 15px 15px 15px;
+}
+
+.barra{
+    background-color: #57EFF9;
+    border-radius: 20px;
+    padding: 10px;
+    width: 185px;
+    height: 21px;
+}
+
+/*section portafolio*/
+
+.portafolio{
+    background-color: #FFD233;
+    padding-bottom: 60px;
+}
+.portafolio h2{
+    padding-bottom: 20px;
+}
+
+/*section clientes*/
+
+.clientes{
+    background-color: #3F4E62;
+    padding-bottom: 60px;
+}
+
+.clientes h2{
+    padding-bottom: 20px;
+}
+
+.clientes figure{
+    margin-right: 10px;
+}
+
+/*section contacto*/
+.contacto{
+    background-color: #1687A0;
+    padding-bottom: 60px;
+}
+
+.contacto form{
+    text-align: center;
+    margin: 20px;
+}
+.contacto input{
+    margin: 10px;
+    padding: 10px;
+    width: 363px;
+    height: 59px;
+}
+
+.contacto textarea{
+    margin: 10px;
+    width: 759px;
+    height: 112px;
+    padding: 10px;
+}
+
+.contacto button{
+    background-color: #233451;
+    color: white;
+    font-family: Arial;
+    font-style: Bold;
+    font-size: 18px;
+    border: 0;
+    width: 167px;
+    height: 56px;
+}
+
