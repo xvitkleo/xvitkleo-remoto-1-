@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+<body>
+    <style>
+        input{
+            margin: 5px;
+            padding: 5px;
+            border: 1.5px solid;
+        }
+        input:focus:valid{
+            background-color: lightgreen;
+        }
+        input:focus:invalid{
+            background-color: red;
+        }
+        button{
+            margin:5px;
+        }
+
+
+    </style>
+    <form action="">
+        <input type="text" placeholder="Nombre" required pattern="[a-zA-Z]+">
+        <br>
+        <input type="text" placeholder="Apellido" required pattern="[a-zA-Z]+">
+        <br>
+        <input type="number" placeholder="Edad" min="18" max="80" required>
+        <br>
+        <input type="text" placeholder="Sexo" required >
+        <br>
+        <input type="text" placeholder="DNI" minlength="8" required pattern="[a-zA-Z0-9]+">
+        <br>
+        <input type="email" placeholder="Email" required>
+        <br>
+        <button>Enviar</button>
+    </form>
+
+</body>
+</html>
